@@ -15,3 +15,6 @@ Es una instlacion global.
 4 -instalacion de cors
 
 
+Ayudas:
+Recuperacion de como esstaba el back 
+> git chekout -- . 
