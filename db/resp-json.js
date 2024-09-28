@@ -12,16 +12,11 @@ const respJson= async( res = response, sql, paramsSql )=> {
     const resp = await db.query(sql, {replacements: paramsSql} ); //obtenemos la resp que es "id" del usuario
     console.log(resp)
     
-    // Si la respuesta llega 
-    // if( resp[0] != undefined ){
 
-        //obtenemos el Cli_Id de la base de datos
+    res.status(200).json({
+        resp
+    })
 
-        //devolvemos la respuesta el mensaje
-        res.status(200).json({
-            resp
-        })
-    // }
 
 
     } catch (error) {

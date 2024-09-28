@@ -1,5 +1,3 @@
-
-
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
 -- Versión del servidor:         8.0.28 - MySQL Community Server - GPL
@@ -35,9 +33,9 @@ CREATE TABLE IF NOT EXISTS `clientes` (
   UNIQUE KEY `Cli_Dni` (`Cli_Dni`)
 ) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Volcando datos para la tabla bdclientes.clientes: ~2 rows (aproximadamente)
+-- Volcando datos para la tabla bdclientes.clientes: ~1 rows (aproximadamente)
 INSERT INTO `clientes` (`Cli_Id`, `Cli_Dni`, `Cli_Usuario`, `Cli_Email`, `Cli_Pass`, `Cli_Estado`) VALUES
-	(1, '37642213', 'facu', 'facu@gmail.com', '123', 1);
+	(1, '77777777', 'root', 'root@gmail.com', 'root', 1);
 
 -- Volcando estructura para procedimiento bdclientes.sp_Core_AltaCliente
 DELIMITER //
