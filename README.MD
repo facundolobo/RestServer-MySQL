@@ -17,6 +17,8 @@ Ejecuta el script SQL `bdclientes.sql` para crear la base de datos con todos sus
 ## 3. Instalar Dependencias
 
 Navega al directorio del proyecto `rest-server` y ejecuta el siguiente comando para instalar las dependencias:
+`npm install`
+
 
 ## 4. Revisar Credenciales de Base de Datos
 
