@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "563d631c-5693-456c-99f1-ec51be86f7d0",
+		"_postman_id": "ce83db6f-38c6-4f9e-9b4a-87da594ef330",
 		"name": "RestServer-Mysql-Login",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "27682355",
-		"_collection_link": "https://cloudy-comet-425589.postman.co/workspace/bancolobo~5e87dc96-f73b-42f2-a04c-5987ab84f540/collection/27682355-563d631c-5693-456c-99f1-ec51be86f7d0?action=share&source=collection_link&creator=27682355"
+		"_collection_link": "https://cloudy-comet-425589.postman.co/workspace/bancolobo~5e87dc96-f73b-42f2-a04c-5987ab84f540/collection/27682355-ce83db6f-38c6-4f9e-9b4a-87da594ef330?action=share&source=collection_link&creator=27682355"
 	},
 	"item": [
 		{
@@ -42,7 +42,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"usuario\": \"facu\",\r\n    \"password\": 123\r\n}",
+							"raw": "{\r\n    \"usuario\": \"root\",\r\n    \"password\": \"root\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
